@@ -153,13 +153,13 @@ section {
   transition: 1s;
 }
 .world.toggle {
-    cursor: pointer;
+  cursor: pointer;
 
   width: 100%;
   transition: 1s ease-out;
 }
 .kitten-whoa.toggle {
-    cursor: pointer;
+  cursor: pointer;
 
   width: 100%;
   transition: 1s ease-out;
@@ -169,7 +169,6 @@ section {
 * Image grid sections
 */
 .wrapper-grid {
-    
   padding-top: 60px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
