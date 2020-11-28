@@ -200,16 +200,16 @@ section {
   #nav-mobile > div {
     transition: all 0.3s ease;
   }
-  .line1, .line2, .line3 {
+  .line1,
+  .line2,
+  .line3 {
     width: 30px;
     height: 3px;
     background: white;
     margin: 5px;
-    
   }
   .opened .line1 {
-    transform: rotate(45deg ) translate(5px, 6px);
-    
+    transform: rotate(45deg) translate(5px, 6px);
   }
   .opened .line2 {
     opacity: 0;
@@ -217,7 +217,6 @@ section {
   }
   .opened .line3 {
     transform: rotate(-45deg) translate(5px, -6px);
-    
   }
 
   .nav-links {
