@@ -1,9 +1,10 @@
 const navbarButton = document.querySelector("#nav-mobile");
 const navLinks = document.querySelector(".nav-links");
-const links = document.querySelectorAll(".nav-links li");
+const navLines = document.querySelector(".line1 .line2 .line3");
 
 navbarButton.addEventListener("click", () => {
   navLinks.classList.toggle("open");
+  navbarButton.classList.toggle('opened')
 });
 
 const textbutton = document.querySelector(".togglerText");

@@ -189,13 +189,6 @@ section {
     position: fixed;
     width: 100%;
   }
-  .line {
-    width: 30px;
-    height: 3px;
-    background: white;
-    margin: 5px;
-  }
-
   #nav-mobile {
     position: fixed;
     cursor: pointer;
@@ -203,6 +196,28 @@ section {
     bottom: 91.5%;
     transform: translate(-5%, -50%);
     z-index: 2;
+  }
+  #nav-mobile > div {
+    transition: all 0.3s ease;
+  }
+  .line1, .line2, .line3 {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+    
+  }
+  .opened .line1 {
+    transform: rotate(45deg ) translate(5px, 6px);
+    
+  }
+  .opened .line2 {
+    opacity: 0;
+    transform: translate(-20px);
+  }
+  .opened .line3 {
+    transform: rotate(-45deg) translate(5px, -6px);
+    
   }
 
   .nav-links {
@@ -285,5 +300,8 @@ section {
   }
   .content-container > button {
     margin-top: 5em;
+  }
+  .title-img {
+    margin: 20px;
   }
 }
