@@ -12,6 +12,7 @@ nav {
   height: 10vh;
   background: black;
   display: flex;
+  top: 0;
 }
 #logo {
   display: flex;
@@ -131,6 +132,11 @@ section {
   width: 80%;
   place-self: center;
 }
+.title-img {
+  color: #fff;
+  margin: 20px;
+}
+
 .kitten-whoa {
   width: 0%;
   transition: 1s ease;
@@ -230,9 +236,14 @@ section {
   .container {
     padding-top: 0;
     padding: 4em;
+    margin-top: 5.34em;
+  }
+  .title-img {
+    margin: 0;
+    margin-top: 15px;
   }
   .content-container {
-    width: 85rem;
+    width: 110rem;
   }
   #bg-container {
     width: 100rem;
