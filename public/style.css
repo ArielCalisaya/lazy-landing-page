@@ -189,13 +189,17 @@ section {
     position: fixed;
     width: 100%;
   }
+  .nav-button-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    place-content: flex-end;
+    padding-right: 40px;
+  }
   #nav-mobile {
-    position: fixed;
     cursor: pointer;
-    right: 10%;
-    bottom: 91.5%;
-    transform: translate(-5%, -50%);
-    z-index: 2;
+    position: fixed;
   }
   #nav-mobile > div {
     transition: all 0.3s ease;
@@ -250,7 +254,7 @@ section {
   .container {
     padding-top: 0;
     padding: 4em;
-    margin-top: 5.34em;
+    margin-top: 4.34em;
   }
   .title-img {
     margin: 0;
@@ -289,16 +293,17 @@ section {
     display: none;
   }
   .content-container > h1 {
-    font-size: 70px;
-    margin-top: 1em;
+    font-size: 60px;
+    margin-top: .5em;
     margin-bottom: 1em;
+}
   }
   .content-container {
     text-align: center;
     display: inline;
   }
   .content-container > button {
-    margin-top: 5em;
+    margin-top: 3em;
   }
   .title-img {
     margin: 20px;
